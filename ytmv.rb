@@ -3,6 +3,7 @@ class Ytmv < Formula
   homepage "https://github.com/PrEvIeS/ytmv"
   url "https://raw.githubusercontent.com/PrEvIeS/ytmv/main/ytmv.py"
   sha256 "ac2a35cb2023d50ae03b068b2bc8d106271cbd998b5b1ec3ab9f4d67ac5d7f7f"
+  version "1.0.0"
   license "MIT"
 
   depends_on "python@3.11"
