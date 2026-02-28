@@ -2,8 +2,8 @@ class Ytmv < Formula
   desc "Interactive CLI wizard for downloading videos and audio from 1000+ sites"
   homepage "https://github.com/PrEvIeS/ytmv"
   url "https://raw.githubusercontent.com/PrEvIeS/ytmv/main/ytmv.py"
-  sha256 "0f1eed896b5a47d2c11c84f73784b729fec94ac9c0a71318333bf0ff8476b438"
-  version "1.0.1"
+  sha256 "ad4ecbbfdd463c2bf0c2b9401edcd372eba6d12441d7d014714a4eca8f170cea"
+  version "1.0.2"
   license "MIT"
 
   depends_on "python@3.11"
