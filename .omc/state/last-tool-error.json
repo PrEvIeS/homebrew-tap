@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd ~/Documents/scripts/homebrew-tap && git remote -v && git remote add origin git@github.com:PrEvIeS/homebrew-tap.git && git push -u origin main\",\"description\":\"Push to existing homebrew-t...",
+  "error": "Exit code 3\nerror: remote origin already exists.\n\norigin\tgit@github.com:PrEvIeS/homebrew-tap.git (fetch)\norigin\tgit@github.com:PrEvIeS/homebrew-tap.git (push)",
+  "timestamp": "2026-02-28T22:20:46.391Z",
+  "retry_count": 2
+}
