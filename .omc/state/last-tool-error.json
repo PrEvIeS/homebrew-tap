@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd ~/Documents/scripts/homebrew-tap && git remote -v && git remote add origin git@github.com:PrEvIeS/homebrew-tap.git && git push -u origin main\",\"description\":\"Push to existing homebrew-t...",
-  "error": "Exit code 3\nerror: remote origin already exists.\n\norigin\tgit@github.com:PrEvIeS/homebrew-tap.git (fetch)\norigin\tgit@github.com:PrEvIeS/homebrew-tap.git (push)",
-  "timestamp": "2026-02-28T22:20:46.391Z",
-  "retry_count": 2
+  "tool_input_preview": "{\"command\":\"sudo rm /usr/local/bin/ytmv && ls -la /opt/homebrew/bin/ytmv\",\"description\":\"Remove old symlink and check Homebrew version\"}",
+  "error": "Exit code 1\nsudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper\nsudo: a password is required",
+  "timestamp": "2026-02-28T22:34:32.865Z",
+  "retry_count": 1
 }
