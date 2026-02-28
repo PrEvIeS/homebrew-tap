@@ -1,0 +1,23 @@
+class Ytmv < Formula
+  desc "Interactive CLI wizard for downloading videos and audio from 1000+ sites"
+  homepage "https://github.com/PrEvIeS/ytmv"
+  url "https://raw.githubusercontent.com/PrEvIeS/ytmv/main/ytmv.py"
+  sha256 "0bdc9fd4bb8203caf143c10f7d5ef64ab687bf42b9261c924acab3d2f82d5880"
+  license "MIT"
+
+  depends_on "python@3.11"
+  depends_on "yt-dlp"
+  depends_on "ffmpeg"
+
+  def install
+    # Install Python dependencies
+    system "pip3", "install", "--break-system-packages", "click", "rich", "questionary"
+
+    # Install the main script
+    bin.install "ytmv.py" => "ytmv"
+  end
+
+  test do
+    assert_match "ytmv", shell_output("#{bin}/ytmv --help")
+  end
+end
